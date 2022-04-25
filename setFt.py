@@ -22,7 +22,5 @@ setUnion=list(setUnion)
 setIntersection=list(setIntersection)
 
 if __name__=='__main__':
-	print("union: ",end='')
-	print(setUnion)
-	print("intersection: ",end='')
-	print(setIntersection)
+	print("union: ",setUnion)
+	print("intersection: ",setIntersection)
