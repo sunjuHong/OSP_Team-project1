@@ -3,7 +3,7 @@
 import sys    
 
 def fib():
-    n=int(input('fibonacci number':))
+    n=int(input('fibonacci number:'))
 
     previous=0
     current=1
