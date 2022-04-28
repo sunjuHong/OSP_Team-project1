@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-from our_pkg.b2h import *
-from our_pkg.setFt import *
-#from our_pkg.fibo import *
-
+import our_pkg
 
 
 def print_menu():
@@ -20,8 +17,8 @@ if __name__=='__main__':
 			our_pkg.b2h()
 		elif n == 2:
 			our_pkg.setFt()
-#elif n == 3:
-#our_pkg.fib()
+		elif n == 3:
+			our_pkg.fib()
 		else:
 			print("worng number! select 1~4")
 		
