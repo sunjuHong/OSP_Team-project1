@@ -2,7 +2,8 @@
 
 import sys    
 
-def fib(n):
+def fib():
+    n=int(input('fibonacci number':))
 
     previous=0
     current=1
@@ -25,8 +26,7 @@ def fib(n):
 
 
 if __name__=='__main__':
-    num=int(input('fibonacci number: '))
-    fib(num)
+    fib()
     
 
 
