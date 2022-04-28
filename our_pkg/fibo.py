@@ -27,9 +27,3 @@ def fib():
 
 if __name__=='__main__':
     fib()
-<<<<<<< HEAD
-    
-
-
-=======
->>>>>>> 0a7e65baf6667f38bd521b511bb95c12065dcf04

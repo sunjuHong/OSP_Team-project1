@@ -1,12 +1,5 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-from our_pkg.b2h import *
-from our_pkg.setFt import *
-from our_pkg.fibo import *
-=======
 import our_pkg
-
->>>>>>> 0a7e65baf6667f38bd521b511bb95c12065dcf04
 
 def print_menu():
 	menu = input("Select menu: 1)b2h 2)set 3)fibo 4)exit ?")
