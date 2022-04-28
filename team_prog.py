@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-import sys
 from our_pkg.b2h import *
 from our_pkg.setFt import *
-from our_pkg.fibo import *
+#from our_pkg.fibo import *
 
 
 
@@ -21,8 +20,8 @@ if __name__=='__main__':
 			our_pkg.b2h()
 		elif n == 2:
 			our_pkg.setFt()
-		elif n == 3:
-			our_pkg.fib()
+#elif n == 3:
+#our_pkg.fib()
 		else:
 			print("worng number! select 1~4")
 		
